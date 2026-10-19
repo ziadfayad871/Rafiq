@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAFIQ — رفيق</string>
+    <string name="prayer_channel_name">مواقيت الصلاة</string>
+    <string name="prayer_channel_description">تنبيهات بأوقات الصلاة التالية</string>
+    <string name="focus_channel_name">جلسات التركيز</string>
+    <string name="focus_channel_description">تنبيه بانتهاء جلسة التركيز</string>
+</resources>

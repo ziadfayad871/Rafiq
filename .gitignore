@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+app/build/
+local.properties
+captures/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Keystore / secrets
+*.jks
+*.keystore
+keystore.properties
+
+# Local reference material
+.refcrops/
