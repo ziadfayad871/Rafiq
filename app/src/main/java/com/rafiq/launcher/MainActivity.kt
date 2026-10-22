@@ -10,6 +10,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.rafiq.launcher.service.RafiqNotifications
 import com.rafiq.launcher.ui.AppViewModelProvider
 import com.rafiq.launcher.ui.RafiqApp
 import com.rafiq.launcher.ui.RootViewModel
@@ -19,6 +20,7 @@ import com.rafiq.launcher.ui.theme.RafiqTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        RafiqNotifications.ensureChannels(applicationContext)
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.dark(Color.TRANSPARENT),
             navigationBarStyle = SystemBarStyle.dark(Color.TRANSPARENT)
